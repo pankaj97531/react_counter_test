@@ -1,0 +1,71 @@
+TDD - Test Driven Development
+	Write tests before writing code
+	
+	"red-green" testing 
+		
+		Test fail before code is written
+
+Why TDD	
+		
+	More efficient
+		
+		Re run tests "for free" after changes
+		
+	Better Code
+
+		Better organished(plan before you code)
+		
+		More testable(no rewriting code for tests)
+		
+		Fewer bug(caught sooner,refression)
+		
+		Great code coverage
+		
+Enzyme has better toolkit
+
+	Search through DOM
+		
+		jquery style selector
+		
+	Simulate simple events
+
+	
+Shallow Rendering
+
+	Render components only one level deep
+
+	Render parent, but use placeholder for children
+
+	
+Types of Tests
+
+	Unit test
+	
+		Test one piece of code(usually one function)
+		
+	Integration test	
+	
+		How multiple unit work together
+		
+	Acceptance/ End to End (E2E) Tests
+
+		How a user would interact with app
+		
+Testing goal :
+
+	1: Ease of maintaince of test	
+
+	2: Easy diagnosis of failing test
+
+Removing data-test attributes
+
+	npm install --save-dev babel-plugin-react-remove-properties
+	
+	npm run eject (so that we can update babel config)
+	
+	Update babel config(either with package.json or with other ways .babelrc)
+	
+	create production build
+	
+	Data-test attrubute has gone.
+	
